@@ -1,0 +1,71 @@
+/* App.css */
+
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  background-image: linear-gradient(to right, rgba(207, 125, 125, 0.683), rgb(246, 182, 71));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #744242;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 30px;
+}
+
+li button:hover {
+  color: #f1c40f;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 10px;
+}
+
+button:hover {
+  color: #f1c40f;
+}
+
+
+.scroll {
+  overflow-y: auto;
+  height: 300px;
+}
